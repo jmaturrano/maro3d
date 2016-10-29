@@ -1,0 +1,340 @@
+/*
+Theme Name: MK System
+Theme URI: http://mksystemsoft.com/
+Author: Julio Maturrano
+Author URI: 
+Template: polmo-lite
+Version: 0.1
+Tags: black, gray, red, white, one-column, two-columns, right-sidebar,fixed-layout,light,front-page-post-form,full-width-template,rtl-language-support,sticky-post,theme-options,responsive-layout, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, photoblogging, accessibility-ready
+Text Domain: mksystem
+This Theme is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url('../polmo-lite/style.css');
+/*
+Aquí empieza la personalización del tema
+---------------------------------------------------------------------------------
+*/
+
+@font-face {
+  font-family: 'Advent Pro Regular';
+  src: url('assets/fonts/advent-pro.regular.ttf') format('truetype');
+}
+header.mksystem.masthead{
+	background: rgba(0, 0, 0, 0.5);
+}
+header.mksystem .navbar-header {
+	position: relative;
+}
+.custom-header {
+	background: #fff;
+	/*border-bottom: 6px solid #6f2a43;*/
+	display: block;
+	padding: 15px 5px;
+	position: absolute;
+}
+.custom-header img{
+	max-width: 185px;
+    -webkit-transition: all 0.25s ease 0s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.25s ease 0s
+}
+header.mksystem #main-menu{
+	padding: 20px 0;
+}
+.slide-inner{
+	padding-top: 12% !important;
+}
+.slider-text{
+	background-color: rgba(0, 0, 0, 0.05) !important;
+}
+.service-details .item:hover .item-description p{
+	color: #fff;
+}
+.box-service{
+	min-height: 242px;
+}
+#ascrail2000:hover{
+	opacity: 0.5 !important;
+}
+#masthead.bg-change .custom-header{
+	border-bottom: 0 none;
+}
+#masthead.bg-change .custom-header img{
+	max-width: 57px;
+}
+.purple-more:hover{
+	color: #fff !important;	
+}
+.latest-projects .btn-container, .blog .btn-container{
+	padding-top: 25px !important;
+}
+.section-padding{
+	/*padding: 50px 0 !important;*/
+	width: 100%;
+}
+.services .section-padding{
+	padding-bottom: 85px !important;
+}
+.section-title span{
+	color: #e13038 !important;
+}
+.testimonial-slider .carousel-indicators{
+	bottom: -45px !important;
+}
+.sponsors, 
+.testimonial{
+	background: rgba(0, 0, 0, 0) url("images/slider/slider_1900x1200_5.jpg") no-repeat fixed center center / cover !important;
+}
+.footer-bottom a{
+	color: #e13038 !important;
+}
+
+#main-slider ul.bxslider { position: relative !important; }
+#main-slider ul.bxslider li{ left: 0; width: 100% !important; }
+
+.wpcf7-form input, .wpcf7-form textarea{
+	padding: 5px 15px !important;
+}
+span.wpcf7-not-valid-tip{
+	font-size: 10px !important;
+	line-height: 10px !important;
+}
+.wpcf7-response-output{
+	font-size: 12px;
+	margin: 0 !important;
+}
+
+
+.contact-header{
+	display: inline-block;
+}
+.contact-header ul li{
+	color: #fff;
+	display: block;
+	font-family: "Advent Pro Regular" !important;
+	font-size: 18px !important;
+	line-height: 35px;
+	padding: 0 30px;
+}
+.contact-header ul li label{
+	margin: 0;
+	width: 30px;
+}
+.contact-header ul li a{
+	border-left: 1px solid #fff;
+	color: #fff;
+	padding: 0 10px;
+}
+.bg-change .contact-header ul li{
+	line-height: 25px;
+}
+.navbar-nav li a, 
+.slider-titlex{
+	font-family: "Advent Pro Regular" !important;
+	text-transform: uppercase !important;
+}
+.slide-description{
+	font-family: "Advent Pro Regular" !important;
+}
+ul#menu-principal li a{
+	font-size: 18px;
+}
+ul#menu-principal li a:hover,
+.contact-header ul li a:hover{
+	color: #e13038 !important;
+	text-decoration: underline;
+}
+html, body{
+	font-family: "Advent Pro Regular" !important;
+}
+.slider-box-custom{
+	float: right;
+	height: 350px;
+	margin-right: 10%;
+	opacity: 0.78;
+	padding: 20px;
+	width: 450px;
+}
+
+#logo_responsive{
+	display: none;
+}
+
+.social-links{
+	bottom: 15%;
+	color: #ffffff;
+	font-size: 1.5em;
+	line-height: 40px;
+	opacity: 0.95;
+	padding: 10px 20px;
+	position: fixed;
+	right: 0;
+	transition: all 0.25s ease 0s;
+	width: auto;
+	z-index: 1000;
+}
+.social-links ul li{
+	display: inline-block;
+	list-style: none;
+}
+.social-links ul li a{
+	color: #fff;
+	padding: 0 8px;
+}
+.social-links ul li a:hover .fa-facebook{
+	color: #3B5998;
+}
+.social-links ul li a:hover .fa-twitter{
+	color: #2DBAE6;
+}
+.social-links ul li a:hover .fa-instagram{
+	color: #3f729b;
+}
+.social-links ul li a:hover .fa-youtube{
+	color: #CC181E;
+}
+.social-links ul li a:hover .fa-linkedin{
+	color: #006FA6;
+}
+.social-links ul li a:hover .fa-vimeo-square{
+	color: #3B5998;
+}
+.war_soundy_audio_control{
+	display: none;
+}
+
+/* woocommerce */
+.woocommerce #container{
+	/*padding-top: 110px;*/
+}
+.woocommerce-breadcrumb{
+	text-align: right;
+}
+.categories .page-title, 
+.categories .term-description{
+	text-align: center;
+}
+.quotelist .post-meta, 
+.quotelist .read-more{
+	display: none;
+}
+.quotelist .media-body{
+	text-align: center;
+}
+.quotelist .entry-date{
+	float: right;
+	height: 95px !important;
+}
+.quotelist .wpcf7{
+	float: right;
+}
+
+/* woocommerce - end */
+
+
+@media screen and (max-width: 1024px) {
+	.navbar-nav li a, 
+	.contact-header ul li{
+		padding: 0 10px !important;
+	}
+	.box-service{
+		min-height: 270px;
+	}
+	#contact .contact-inner{
+		padding: 30px 0px;
+	}
+	.section-padding{
+		padding: 85px 0 !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.custom-header img{
+		max-width: 90px;
+	}
+	.navbar-nav li a, 
+	.contact-header ul li{
+		padding: 0 5px !important;
+	}
+	ul#menu-principal li a,
+	.contact-header ul li{
+		font-size: 15px;
+	}
+	#google-map{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.slider-box-custom{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 736px) {
+	.custom-header{
+		display: none;
+	}
+	#logo_responsive{
+		display: block;
+		margin: 0 auto;
+		width: 150px;
+	}
+	#logo_responsive img{
+		max-width: 150px;
+	}
+	header.mksystem.masthead{
+		background: #fff !important;
+		border-bottom: 1px solid #6f2a43;
+	}
+	.navbar-default .navbar-toggle{
+		color: #000 !important;
+	}
+	#menu-principal{
+		text-align: center;
+	}
+	.navbar-nav li{
+		display: block !important;
+	}
+	#main-menu{
+		background: #6f2a43;
+		opacity: 0.9;
+	}
+	.contact-header{
+		text-align: center;
+		width: 100%;
+	}
+	.navbar-nav li a{
+		line-height: 35px !important;
+	}
+	#contact .contact-inner{
+		padding: 58px 0	;
+	}
+	#padding_product{
+		padding-top: 0 !important;
+	}
+}
+
+@media screen and (max-width: 384px) {
+	.wpcf7-form input, .wpcf7-form textarea{
+		min-width: 345px !important;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.wpcf7-form input, .wpcf7-form textarea{
+		min-width: 280px !important;
+	}
+}
+
+@media screen and (max-width: 240px) {
+	#logo_responsive{
+		display: inline;
+		padding: 5px;
+	}
+	.wpcf7-form input, .wpcf7-form textarea{
+		min-width: 200px !important;
+	}
+}

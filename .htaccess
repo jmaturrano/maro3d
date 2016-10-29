@@ -1,0 +1,12 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /jmaturrano/proyectos/web/maro3d/maro3dstudio/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /jmaturrano/proyectos/web/maro3d/maro3dstudio/index.php [L]
+</IfModule>
+
+# END WordPress
